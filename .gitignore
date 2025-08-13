@@ -1,0 +1,91 @@
+# Normal Map Generator .gitignore
+
+# Generated normal maps - users will generate these locally
+*_n.bmp
+*_n.tga
+*_n.dds
+
+# User texture files - don't track user's source textures
+*.bmp
+*.tga
+*.dds
+*.jpg
+*.jpeg
+*.png
+*.tiff
+*.tif
+
+# Exception: Keep any example/sample textures in a specific folder (uncomment if needed)
+# !examples/*.bmp
+# !samples/*.bmp
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# System files
+Thumbs.db
+.DS_Store
+desktop.ini
+ehthumbs.db
+ehthumbs_vista.db
+
+# Test/experimental files
+test*.bat
+test*.py
+experimental*.bat
+experimental*.py
+backup*.bat
+old*.bat
+temp*.bat
+temp*.py
+
+# Log files
+*.log
+
+# Output folders that users might create
+output/
+generated/
+processed/
+converted/
